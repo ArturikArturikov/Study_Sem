@@ -14,10 +14,11 @@ double Diff (double[] array)
     return Math.Round(max - min, 2);
 }
 
-int pos = InputNum("Введите размер массива: ");
-double[] myArray = CraeteArray(pos);
-FillArray(myArray);
-PrintArray(myArray);
 
-double difference = Diff(myArray);
-Console.WriteLine(difference);
+// int pos = InputNum("Введите размер массива: ");
+// double[] myArray = CraeteArray(pos);
+// FillArray(myArray);
+// PrintArray(myArray);
+
+// double difference = Diff(myArray);
+// Console.WriteLine(difference);
